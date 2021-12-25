@@ -17,8 +17,8 @@ int main(int argc, char* argv[])
 		const char* arg = argv[1];
 		if (strcmp(arg, "-h") == 0 || strcmp(arg, "-help") == 0) {
 			printf("Supported arguments are:\n-dft: Run DFT visualization program\n-fs: Run Fourier Series visualization program\n-image [file]: Run image fourier transform program on image [file]\n");
-			printf("\nDFT Controls: Input data with the mouse, then press space bar with the mouse to generate and visualize DFT\n");
-			printf("\nFS Controls: Input data with the mouse, then press space bar with the mouse to generate and visualize the fourier series. By default there is only one term\n");
+			printf("\nDFT Controls: Input data with the mouse, then press space bar to generate and visualize DFT\n");
+			printf("\nFS Controls: Input data with the mouse, then press space bar to generate and visualize the fourier series. By default there is only one term\n");
 			printf("press the 'P' key to increase the number of terms to improve accuracy, or use 'O' to decrease the number of terms.\n");
 			printf("\nOther Controls: Press T to speed up time, press R to slow down. D To toggle path visualization, X to toggle drawing the original function.\n");
 			printf("Press F to toggle camera following the tip of the series. Zoom with mouse wheel, click and drag to move camera.\n");
