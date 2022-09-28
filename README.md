@@ -1,4 +1,4 @@
-A program I made to learn more about Fourier Series
+A program I made to try to understand Fourier Series more.
 
 # Demonstration
 
