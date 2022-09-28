@@ -1,3 +1,5 @@
+A program I made to learn more about Fourier Series
+
 # Demonstration
 
 Click the image below to view a demonstration of the program on youtube
